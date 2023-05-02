@@ -5,11 +5,20 @@ import {FaBars,FaTimes} from "react-icons/fa";
 
 const Navbar = () => {
     const[click,setClick] =useState(false);
-    const handleCLicking = () =>setClick(!click)
+    const handleCLicking = () =>setClick(!click);
 
+
+    const  [color,setColor]=useState(false);
+    const changeColor = () =>{
+      if(window.scrollY>=100){
+        setColor(true);
+      }
+      
+    };
+    window.addEventListener("scroll",changeColor,true);
     
   return (
-    <div className='header'>
+    <div className={color ? "header header-bg":"header"}>
     <Link to="/">
     <h1>Shashishekhar</h1>
     </Link>
@@ -28,7 +37,7 @@ const Navbar = () => {
         </li>
     </ul>
     <div className='HamBurger' onClick={handleCLicking }>
-        {click ? (  <FaBars size={20} style={{color:"#fff"}}/>):(<FaTimes size={20} style={{color:"#fff"}}/>
+        {click ? (  <FaTimes size={20} style={{color:"#fff"}}/>):(<FaBars size={20} style={{color:"#fff"}}/>
         ) }
         
 
