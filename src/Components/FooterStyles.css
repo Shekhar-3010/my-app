@@ -52,4 +52,14 @@ p{
     }
 
 }
+.socials ul{
+   
+    display: flex;
+    margin: auto
+
+}
+.socials{
+    margin-top: 2rem;
+}
+
     

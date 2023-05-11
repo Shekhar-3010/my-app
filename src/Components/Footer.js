@@ -1,6 +1,6 @@
 import "./FooterStyles.css";
 import React from "react";
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaTwitch, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaHome, FaLinkedin,FaGithub, FaMailBulk, FaTwitch, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -51,26 +51,54 @@ const Footer = () => {
 
           </ul>
           </p>
-          <div className="social">
-            <FaFacebook 
-              size={30} 
-              style={{ color: "#fff", 
-              marginRight: "1rem" }}
-            />
-            <FaTwitter
-            size={30} 
-            style={{ color: "#fff", 
-            marginRight: "1rem" }}
-          />
-         
-          <FaLinkedin 
+          <div className="socials">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/shashishekhar-choudhary/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <FaLinkedin  className="icons-linkedin"
+              size={50} style={{ color: "#0072b1", marginRight: "1rem" }}
+              />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Shekhar-3010?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <FaGithub className="icons"
+              size={50} style={{ color: "#fff", marginRight: "1rem" }}
+
+              />
+
+                <span className="ico-circle">
+                  <i className="ion-social-github"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send/?phone=917698058621&text&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <FaWhatsapp className="icons"
+              size={50} style={{ color: "#aaf3aa", marginRight: "1rem" }}
+
+              />
+              <span className="ico-circle">
+                  <i className="ion-social-linkedin"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
           
-          size={30} 
-          style={{ color: "#fff", 
-          marginRight: "1rem" }}
-        />
-            
-          </div>
         </div>
       </div>
     </div>
