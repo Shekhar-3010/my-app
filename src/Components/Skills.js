@@ -7,6 +7,9 @@ import HeroImg from './HeroImg'
 
 const Skills = () => {
   return (
+   <div>
+   <Navbar/>
+   <br />
     <div className='Heading'>
     <h1>what skills do i have ?</h1>
     
@@ -34,7 +37,17 @@ const Skills = () => {
     
     <p>C/C++</p>
     <div class="container">
-      <div class="skills c">65%</div>
+      <div class="skills c">90%</div>
+    </div>
+
+    <p>Git and github</p>
+    <div class="container">
+      <div class="skills git">85%</div>
+    </div>
+
+    <p>Firebase</p>
+    <div class="container">
+      <div class="skills firebase">90%</div>
     </div>
     
     
@@ -42,6 +55,11 @@ const Skills = () => {
     
     </div>
     </div>
+    <div className="heading2">
+        <h1>here are my certification</h1>   
+    </div>
+    </div>
+   
   )
 }
 

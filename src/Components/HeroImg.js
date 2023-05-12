@@ -15,7 +15,15 @@ const HeroImg = () => {
     <div>
     <Link to="/projects" className="btn btn">Projects</Link>
     <Link to="/contact" className=" btn btn-light">Contact</Link>
+
+  
+
+
+
     
+
+   
+
 
 
     </div>
@@ -24,5 +32,6 @@ const HeroImg = () => {
     </div>
   )
 }
+
 
 export default HeroImg

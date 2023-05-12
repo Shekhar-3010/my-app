@@ -22,9 +22,7 @@ In addition to my front-end development skills, I am also proficient in C/C++, w
             <div className="img-stack top">
             <img src={react3 } className="img" alt="react1icon"/>
             </div>
-            <div className="img-stack bottom">
-            <img src={react2} className="img" alt="react1icon"/>
-            </div>
+           
       </div>
       </div>
     </div>
