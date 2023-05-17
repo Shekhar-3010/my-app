@@ -13,6 +13,7 @@
     transition: 0.5s;
 }
 .nav-menu{
+    
     display: flex;
 
 }
@@ -55,7 +56,7 @@
     }
     
     
-    
+   
 }
 
  

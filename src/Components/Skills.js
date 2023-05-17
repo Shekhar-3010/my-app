@@ -11,7 +11,7 @@ const Skills = () => {
    <Navbar/>
    <br />
     <div className='Heading'>
-    <h1>what skills do i have ?</h1>
+    <h1>which skills do i have ?</h1>
     
     <div className="skills-container">
     <p >HTML</p>
@@ -56,7 +56,7 @@ const Skills = () => {
     </div>
     </div>
     <div className="heading2">
-        <h1>here are my certification</h1>   
+        <h1></h1>   
     </div>
     </div>
    

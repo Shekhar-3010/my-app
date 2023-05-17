@@ -17,7 +17,7 @@ const Home = () => {
       <button id="foot"><button class="button-os"><a href="https://drive.google.com/file/d/12xu5eanrTlTrRXAHZeYcwFvuN8w7qciL/view?usp=sharin" target="blank" download="resume.pdf"> <FaDownload/>  Resume</a></button></button>
 
       <Work/>
-      
+      <Skills/>
       <Footer/>
     </div>
   )

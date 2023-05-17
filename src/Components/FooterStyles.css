@@ -17,6 +17,7 @@
     display:flex;
     flex-direction: column;
     padding: 1rem;
+   
 }
 .location{
     display: flex;
@@ -31,6 +32,8 @@
     display: flex;
     flex-direction: column ;
     padding: 1rem;
+   
+
 }
 .social{
     margin-top: 1rem;
@@ -43,14 +46,13 @@ h4{
 p{
     font-size: 1.2rem;
 }
-@media screen  and (max-widht:640px){
+@media screen and (max-width: 640px) {
     .footer-container{
-       
-        grid-template-columns: 1fr;
         
-    
+        grid-template-columns: repeat(1,1fr);
+        
     }
-
+    
 }
 .socials ul{
    
@@ -61,5 +63,9 @@ p{
 .socials{
     margin-top: 2rem;
 }
-
-    
+.phone {
+    padding-left: 1rem;
+}
+.location{
+    padding-left: 1rem;
+}

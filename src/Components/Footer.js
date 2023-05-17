@@ -11,15 +11,15 @@ const Footer = () => {
         <div className="left">
           <div className="location">
           
-            
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} 
+            <h4> <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} 
         
-            />
+            />Meghpar Borichi Anjar, 
+           India</h4>
+            
           </div>
-          <div>
-            <p> Meghpar Borichi Anjar</p>
-            <p>India</p>
-          </div>
+          
+          
+          
         </div>
         <div className="phone">
           <h4>
@@ -30,11 +30,11 @@ const Footer = () => {
         </div>
         <div className="location">
           <h4>
+            
             <FaMailBulk
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            shashshekhar302001@gmail.com
+            />shashshekhar302001@gmail.com
           </h4>
         </div>
         <div className="right">
