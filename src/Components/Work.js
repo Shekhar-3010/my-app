@@ -2,11 +2,12 @@ import "./WordCardstyles.css";
 import React from "react";
 import WorkCard from "./WorkCard";
 import WorkCarddata from "./WorkCarddata";
+import "./workcardstyles.css"
 
 const Work = () => {
   return (
     <div className="work-container">
-      <h1 className="Project-heading">projects</h1>
+      <h1 className="Project-heading">SERVICES WE PROVIDE</h1>
       <div className="project-container">
                 {
                     WorkCarddata.map((val,ind)=>{

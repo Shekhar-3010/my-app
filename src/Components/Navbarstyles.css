@@ -9,7 +9,7 @@
     z-index: 10;
 }
 .header-bg{
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
 }
 .nav-menu{
@@ -20,12 +20,51 @@
     padding: 0 1rem ;
 }
 .nav-menu li a{
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
+  
+    display: inline-block;
     
 }
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    
+    display: inline-block;
+    
+    position: relative;
+  }
+  .nav-menu li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav-menu li a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+  
+
+
+
+
+
 .HamBurger{
     display: none;
+}
+h1{
+    padding: 0 1rem ;
+    padding-bottom: 3rem;
+    
 }
 @media screen  and (max-width:1040px){
     .nav-menu{
@@ -53,7 +92,17 @@
     .HamBurger{
         display: initial ;
     }
+
     
     
-    
+   
 }
+.logo {
+    width: 45px; /* Adjust the width as needed */
+    height: 45px; /* Allow the height to adjust proportionally */
+    margin-right:-20px;
+    margin-right: 0.5rem;
+    
+  }
+
+ 
