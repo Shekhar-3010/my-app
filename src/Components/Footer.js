@@ -13,8 +13,10 @@ const Footer = () => {
           
             <h4> <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} 
         
-            />Meghpar Borichi Anjar, 
-           India</h4>
+            />Nigdi
+
+           
+            Pune, Maharashtra</h4>
             
           </div>
           
@@ -25,7 +27,8 @@ const Footer = () => {
           <h4>
             {" "}
             <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            +91 9265944215
+            7887317615,
+             8668554794
           </h4>
         </div>
         <div className="location">
@@ -34,28 +37,20 @@ const Footer = () => {
             <FaMailBulk
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
-            />shashshekhar302001@gmail.com
+            />support@honeybadgersco.com
+
+
           </h4>
         </div>
         <div className="right">
-          <h4>About Me</h4>
-          <p>I am a frontend developer with knowledge of 
-          <ul>
-          <li>HTML</li>
-          <li>CSS(Bootstrap)</li>
-          <li>JAVASCRIPT</li>
-          <li>REACT</li>
-          <li>REDUX</li>
-          <li>c/c++</li>
-          <li>DataStructures and algorithm</li>
-
-          </ul>
-          </p>
+          <h4>About Us</h4>
+          
+          <p>is a technology and digital IT Consultation firm specializing in innovative software solutions. Which is Known for delivering high-quality and exceptional customer service. We believe that technology has the power to change the world, and we're driven to play a role in shaping its future. Whether it's making it easier for people to connect or improving how businesses operate, our goal is to use technology to positively impact people's lives.</p>
           <div className="socials">
           <ul>
             <li>
               <a
-                href="https://www.linkedin.com/in/shashishekhar-choudhary/"
+                href="https://www.linkedin.com/company/honeybadgersco/mycompany/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -82,7 +77,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://api.whatsapp.com/send/?phone=917698058621&text&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=918668554794&text&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >

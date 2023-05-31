@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
-.mask{
-    width:100%;
-    height: 100vh;
-    position: relative;
-}
+
 .Intro_image{
     width: 100%;
     height: 100%;
@@ -12,16 +8,7 @@
     object-fit:cover;
 
 }
-.mask::after{
-    content:"";
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-color: #000;
-    opacity: 0.8;
-}.hero{
+.hero{
     height:100%;
     width:100%;
 }
@@ -155,15 +142,4 @@
     .button-os a:hover{
       letter-spacing: 5px;
     }
-    .content p{
-      position: relative;
-      color: hsl(0, 0%, 68%);
-      font-weight: bold;
-      font-family: "Anonymous Pro", monospace;
-      letter-spacing: 7px;
-      overflow: hidden;
-      border-right: 2px solid hsl(0, 0%, 80%);
-      white-space: nowrap;
-      animation: typewriter 4s steps(44) 1s 1 normal both,
-        blinkTextCursor 500ms infinite;
-    }
+    

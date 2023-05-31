@@ -3,6 +3,7 @@ import "./SkillsStyle.css"
 import { Route } from 'react-router-dom'
 import Navbar from './Navbar'
 import HeroImg from './HeroImg'
+import Footer from './Footer'
 
 
 const Skills = () => {
@@ -58,9 +59,12 @@ const Skills = () => {
     <div className="heading2">
         <h1></h1>   
     </div>
+    
     </div>
+    
    
   )
+ 
 }
 
 export default Skills;

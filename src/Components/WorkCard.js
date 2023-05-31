@@ -14,10 +14,10 @@ const WorkCard = (props) => {
         <p>{props.text}</p>
         <div className="pro-btns">
           <NavLink to={props.view} target="_blank" className="btn">
-            Live
+            contact 
           </NavLink>
           <NavLink to={props.source} target="_blank" className="btn">
-            Github
+            reviews
           </NavLink>
         </div>
       </div>
